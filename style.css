@@ -39,6 +39,11 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky{
+    background: var(--bg-color);
 }
 
 /* Name not working */
@@ -562,4 +567,18 @@ span{
 .contact form .btn-box.btns .btn{
     cursor: pointer;
 } 
+
+/* BREAKPOINTS */
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991){
+    .header{
+        padding: 2rem 4%;
+    }
+}
+
 
