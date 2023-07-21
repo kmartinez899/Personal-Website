@@ -253,33 +253,33 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/1956d5a55d62459beda99bb995923a62" method="POST">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" id = "name" placeholder="Full Name" required>
                     <span class="focus"></span>
                 </div>
 
                 <div class="input-field">
-                    <input type="text" placeholder="Email Address" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="number" id="phone" placeholder="Mobile Number" required>
                     <span class="focus"></span>
                 </div>
 
                 <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
+                    <input type="text" id="subject" placeholder="Email Subject" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <span class="focus"></span>
             </div>
 
@@ -287,7 +287,24 @@
                 <button type="submit" class="btn">Submit</button>
             </div>
         </form>
+        
     </section>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    SecureToken: "5db54ed7-0b6b-40ab-8e27-be7bedcddc8d",
+                    To : 'krismartinez227@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "New Contact Form Inquiry",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                );
+            }
+        </script> -->
+
+   
 
 
     <script src="script.js"></script>
