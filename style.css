@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
+    --bg-color: #1a1a1dff;
+    --second-bg-color: #4e4e50ff;
     --text-color: #ededed;
-    --main-color: #00abf0;
+    --main-color: #c3073f;
 }
 
 html{
@@ -88,7 +88,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('myIMG.jpg') no-repeat;
+    background: url('homeIMG2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
